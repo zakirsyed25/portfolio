@@ -1,14 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zakir's Cybersecurity Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      margin: 0;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      color: #58a6ff;
+    }
+    .project {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+    }
+    .project h2 {
+      color: #58a6ff;
+    }
+    a {
+      color: #8b949e;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Zakir's Portfolio</h1>
-  <p>This is a showcase of my cybersecurity projects.</p>
-  <ul>
-    <li><a href="https://github.com/your-username/project-name">Project 1 - DDoS Attack Simulation</a></li>
-    <li><a href="https://github.com/your-username/project-name">Project 2 - Network Traffic Analysis</a></li>
-  </ul>
+
+  <header>
+    <h1>Zakir's Cybersecurity Portfolio</h1>
+    <p>Showcasing my hands-on cybersecurity projects and tools</p>
+  </header>
+
+  <section class="project">
+    <h2>DDoS Attack Simulation & Mitigation</h2>
+    <p>
+      Simulated a distributed denial-of-service attack using LOIC and analyzed defense mechanisms using firewalls and traffic filtering.
+    </p>
+    <a href="https://github.com/your-username/ddos-simulation">View on GitHub</a>
+  </section>
+
+  <section class="project">
+    <h2>Network Packet Sniffer</h2>
+    <p>
+      Developed a Python-based sniffer using `scapy` to capture and analyze live packets. Included real-time alerting for suspicious traffic.
+    </p>
+    <a href="https://github.com/your-username/packet-sniffer">View on GitHub</a>
+  </section>
+
+  <section class="project">
+    <h2>Password Strength Analyzer</h2>
+    <p>
+      Built a web tool that evaluates password strength using regex and entropy metrics, with real-time feedback and brute-force resistance estimates.
+    </p>
+    <a href="https://github.com/your-username/password-analyzer">View on GitHub</a>
+  </section>
+
 </body>
 </html>
